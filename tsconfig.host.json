@@ -1,0 +1,6 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": { "rootDir": "src", "outDir": "lib/types", "tsBuildInfoFile": "lib/.tsbuildinfo.host", "noEmit": false, "types": ["node"] },
+  "include": ["src/index.ts", "src/host", "src/shared", "src/invariant.ts"],
+  "references": []
+}

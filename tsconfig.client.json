@@ -1,0 +1,6 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": { "rootDir": "src", "outDir": "lib/types", "tsBuildInfoFile": "lib/.tsbuildinfo.client", "noEmit": false, "types": [], "lib": ["ES2022", "DOM", "DOM.Iterable"] },
+  "include": ["src/client", "src/shared/types.ts"],
+  "references": []
+}
