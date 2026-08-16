@@ -34,7 +34,7 @@ npx -y -p pnpm@11.19.0 -p @deepseek-ai/dsh \
   -c 'dsh plugin --profile web add github:ZzzzzzzLL/dsh-skill-manager --config.auto-install-peers=false'
 ```
 
-这条命令会下载当前 GitHub 仓库、构建插件，并将它加入 DSH 的 `web` profile。整个过程不需要下载 DSH 源码。
+这条命令会下载当前 GitHub 仓库，并将其中已经构建好的插件加入 DSH 的 `web` profile。整个过程不需要下载 DSH 源码，也不需要允许依赖执行构建脚本。
 
 ### 2. 启动 DSH Web
 

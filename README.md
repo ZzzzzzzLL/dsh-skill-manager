@@ -34,7 +34,7 @@ npx -y -p pnpm@11.19.0 -p @deepseek-ai/dsh \
   -c 'dsh plugin --profile web add github:ZzzzzzzLL/dsh-skill-manager --config.auto-install-peers=false'
 ```
 
-The command downloads this GitHub repository, builds the plugin, and adds it to the DSH `web` profile. It does not require a clone of the DSH source repository.
+The command downloads this GitHub repository and adds its prebuilt plugin to the DSH `web` profile. It does not require a clone of the DSH source repository or permission to run dependency build scripts.
 
 ### 2. Start DSH Web
 

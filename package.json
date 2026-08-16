@@ -29,7 +29,7 @@
   },
   "scripts": {
     "build": "tsc -b tsconfig.host.json && tsc -b tsconfig.client.json && tsdown",
-    "prepare": "npm run build"
+    "prepack": "npm run build"
   },
   "files": ["lib", "cordis.patch.yml", "docs/images/skill-manager.png", "README.md", "README.zh.md", "README.i18n.yaml", "LICENSE"],
   "dependencies": {
