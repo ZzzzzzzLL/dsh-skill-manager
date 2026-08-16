@@ -1,0 +1,51 @@
+/** Localized copy for the skill manager Settings section. */
+export declare const zh: {
+    nav: string;
+    intro: string;
+    loading: string;
+    error: string;
+    empty: string;
+    emptyHint: string;
+    search: string;
+    project: string;
+    global: string;
+    enable: string;
+    disable: string;
+    upload: string;
+    refresh: string;
+    workspace: string;
+    active: string;
+    disabled: string;
+    invalid: string;
+    shadowed: string;
+    source: string;
+    path: string;
+    description: string;
+    choose: string;
+};
+export type SkillManagerLocaleKey = keyof typeof zh;
+export declare const en: {
+    nav: string;
+    intro: string;
+    loading: string;
+    error: string;
+    empty: string;
+    emptyHint: string;
+    search: string;
+    project: string;
+    global: string;
+    enable: string;
+    disable: string;
+    upload: string;
+    refresh: string;
+    workspace: string;
+    active: string;
+    disabled: string;
+    invalid: string;
+    shadowed: string;
+    source: string;
+    path: string;
+    description: string;
+    choose: string;
+};
+//# sourceMappingURL=locales.d.ts.map
